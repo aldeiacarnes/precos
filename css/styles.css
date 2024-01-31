@@ -10844,4 +10844,9 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+
+  /* FOOTER */
+  .social-icons a{
+    margin-right: 10vh; /* Ajuste o valor conforme necessário */
+  }
 }
