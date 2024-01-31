@@ -10845,8 +10845,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 
-  /* FOOTER */
-  .social-icons a{
-    margin-right: 10vh; /* Ajuste o valor conforme necessário */
-  }
+  .social-icons a:not(:last-child) {
+    margin-right: 50px; /* Ajuste o valor conforme necessário */
+}
 }
