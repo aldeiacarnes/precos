@@ -102,6 +102,7 @@
   .bg-image {
     height: 30vh;
     margin-top: -22vh;
+    margin-bottom: -25vh;
     background-size: contain;
     background-position: center;
     width: 100%;
