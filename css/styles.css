@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /*!
-* Start Bootstrap - Scrolling Nav v5.0.6 (https://startbootstrap.com/template/scrolling-nav)
+* Start Bootstrap - Shop Homepage v5.0.6 (https://startbootstrap.com/template/shop-homepage)
 * Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
+* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
 */
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
@@ -88,25 +88,6 @@
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
-  }
-}
-.bg-image {
-  height: 49vh;
-  margin-top: -12vh;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-@media (max-width: 768px) {
-  .bg-image {
-    height: 30vh;
-    margin-top: -22vh;
-    margin-bottom: -25vh;
-    background-size: contain;
-    background-position: center;
-    width: 100%;
-    background-repeat: no-repeat;
   }
 }
 
@@ -10842,17 +10823,4 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
-}
-html {
-  scroll-padding-top: 3.5rem;
-}
-
-header {
-  padding-top: 9.5rem;
-  padding-bottom: 6rem;
-}
-
-section {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
 }
