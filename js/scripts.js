@@ -32,3 +32,7 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+import { Collapse, Ripple, initMDB } from "mdb-ui-kit";
+
+initMDB({ Collapse, Ripple });

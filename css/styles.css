@@ -91,6 +91,13 @@
   }
 }
 
+@media (max-width: 768px) {
+  .bg-image {
+    height: 10px; /* Defina a altura desejada para dispositivos móveis */
+    margin-top: 10px; /* Remova a margem superior negativa */
+  }
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
