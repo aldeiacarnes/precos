@@ -90,11 +90,22 @@
     scroll-behavior: smooth;
   }
 }
+.bg-image {
+  height: 49vh;
+  margin-top: -12vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 @media (max-width: 768px) {
   .bg-image {
-    height: 10px; /* Defina a altura desejada para dispositivos móveis */
-    margin-top: 10px; /* Remova a margem superior negativa */
+    height: 30vh;
+    margin-top: -22vh;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
   }
 }
 
