@@ -10846,6 +10846,6 @@ textarea.form-control-lg {
   }
 
   .social-icons a:not(:last-child) {
-    margin-right: 50px; /* Ajuste o valor conforme necessário */
+    margin-right: 50vh; /* Ajuste o valor conforme necessário */
 }
 }
