@@ -1,10 +1,10 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const navItems = document.querySelectorAll('.navbar-nav .nav-item');
+const swiper = new Swiper('.swiper', {
+  slidesPerView: 3,
+  spaceBetween: 15,
+  loop: true,
 
-    navItems.forEach(item => {
-        item.addEventListener('click', function() {
-            navItems.forEach(navItem => navItem.classList.remove('active'));
-            this.classList.add('active');
-        });
-    });
+  pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+  }
 });
